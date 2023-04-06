@@ -10,7 +10,8 @@ function TrackList() {
       <div className="top">
         <img src={Track} alt="" />
         <p className="trackName">
-            Beast <span className="trackSpan">Artist</span>
+        Popular Artist <span className="trackSpan">A-ha</span> 
+
         </p>
       </div>
       <div className="bottom">

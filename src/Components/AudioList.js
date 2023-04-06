@@ -39,7 +39,7 @@ function AudioList() {
   return (
     <div className="AudioList">
       <h2 className="title">
-        The list <span>12 songs</span>
+        The list <span>{`${Songs.length} songs`}</span>
       </h2>
 
       <div className="songsContainer">
@@ -95,7 +95,7 @@ function AudioList() {
                 </div>
               </div>
             </div>
-          ))}
+          ))};
       </div>
 
       <MusicPlayer song={song} imgSrc={img} autoplay={auto} />
